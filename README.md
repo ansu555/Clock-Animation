@@ -50,38 +50,18 @@ Welcome to the Clock Website! This simple web page displays an animated clock wi
 
 *Clock Hands: <li id="hour"></li>, <li id="minute"></li>, <li id="second"></li> - Elements representing the hour, minute, and second hands of the clock.
 
-##CSS Styles (watch.css)
+<h2>CSS Styles (watch.css)</h2>
 
-*Global Reset
-*: Sets margin and padding to zero for all elements.
-
-*Wrapper Styles
-.wrapper: Defines the overall layout of the clock, setting the background color, font-family, and size.
-
-*Clock Text Styles
-#clocktext: Styles the heading "CLOCK" with background color, text color, font size, boldness, and shadow effects.
-
-*Clock Container Styles
-#clock: Defines the appearance of the clock container, including its size, background color, border, and box shadow.
-
-*Clock Inner Circle
-#clock:before: Adds a circular inner shadow to the clock container.
-
-*Clock Center
-#clock:after: Creates a central circle within the clock.
-
-*Clock Numbers
-.numbers: Styles the container for clock numbers, specifying position, size, and text alignment.
-.numbers span: Styles each individual clock number, including color, font size, and text shadow.
-
-*Clock Hands Animation
-#second, #minute, #hour: Configures the animation properties for the second, minute, and hour hands.
-
-*Clock Hands Styling
-#second:after, #minute:after, #hour:after: Styles the appearance of the clock hands, including size, shape, color, and shadow.
-
-*Clock Hands Animation Keyframes
-@keyframes sec: Defines the rotation animation for the second hand.
+*Global Reset : "*": Sets margin and padding to zero for all elements.
+*Wrapper Styles:.wrapper : Defines the overall layout of the clock, setting the background color, font-family, and size.
+*Clock Text Styles:#clocktext : Styles the heading "CLOCK" with background color, text color, font size, boldness, and shadow effects.
+*Clock Container Styles : #clock: Defines the appearance of the clock container, including its size, background color, border, and box shadow.
+*Clock Inner Circle : #clock:before: Adds a circular inner shadow to the clock container.
+*Clock Center : #clock:after: Creates a central circle within the clock.
+*Clock Numbers : .numbers: Styles the container for clock numbers, specifying position, size, and text alignment.(.numbers span): Styles each individual clock number, including color, font size, and text shadow.
+*Clock Hands Animation : #second, #minute, #hour: Configures the animation properties for the second, minute, and hour hands.
+*Clock Hands Styling : #second:after, #minute:after, #hour:after: Styles the appearance of the clock hands, including size, shape, color, and shadow.
+*Clock Hands Animation Keyframes : @keyframes sec: Defines the rotation animation for the second hand.
 
 <h1>Getting Started</h1>
 
