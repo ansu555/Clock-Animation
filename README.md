@@ -3,20 +3,23 @@
 Clock Website
 Welcome to the Clock Website! This simple web page displays an animated clock with rotating hour, minute, and second hands. You can use this code as a starting point or customize it to suit your needs.
 
-Preview
+##Preview
 
-Features
-Animated clock with rotating hands.
-Stylish design with a purple background.
-Getting Started
-Clone the repository:
+##Features
+1) Animated clock with rotating hands.<br>
+2) Stylish design with a purple background.
 
+##Getting Started
+1) Clone the repository:
+<!--
 bash
-Copy code
-git clone https://github.com/your-username/clock-website.git
-Open the index.html file in your preferred web browser.
 
-Usage
+git clone https://github.com/your-username/clock-website.git
+-->
+
+2) Open the index.html file in your preferred web browser.
+
+##Usage
 Feel free to use this code as a template for your own projects. Customize the colors, styles, or add additional features to make it unique.
 
 html
@@ -46,7 +49,8 @@ Copy code
   </div>
 </body>
 </html>
-Styling
+
+##Styling
 The clock styling is defined in the watch.css file. You can modify the styles to match your preferences or integrate it into your existing project. Feel free to explore and experiment with the code to create a unique clock design.
 
 Credits
