@@ -6,44 +6,85 @@ Welcome to the Clock Website! This simple web page displays an animated clock wi
 ##Preview
 
 <h1>Features</h1>
+
 1) Animated clock with rotating hands.<br>
 2) Stylish design with a purple background.
 
-HTML Structure (index.html)
-Wrapper Container: <div class="wrapper"> - A container that encompasses the entire clock.
+<h2>HTML Structure (index.html)</h2>
 
-Clock Text: <ul id="clocktext"> - The heading text "CLOCK" displayed above the clock.
+```HTML
+<!-- Include the necessary HTML structure -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="watch.css">
+  <link rel="icon" href="icons8-clock-16.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <div class="wrapper">
+    <ul id="clocktext">CLOCK</ul>
+    <ul id="clock">
+      <li class="numbers"><span>1</span></li>
+      <li class="numbers"><span>2</span></li>
+      <!-- ... (continue for numbers 3 to 12) ... -->
+      <li id="hour"></li>
+      <li id="minute"></li>
+      <li id="second"></li>
+    </ul>
+  </div>
+</body>
+</html>
+```
 
-Clock Container: <ul id="clock"> - The main container for the clock, including numbers and clock hands.
+*Wrapper Container: <div class="wrapper"> - A container that encompasses the entire clock.
 
-Clock Numbers: <li class="numbers"><span>1</span></li> - Individual elements for each clock number (1 to 12).
+*Clock Text: <ul id="clocktext"> - The heading text "CLOCK" displayed above the clock.
 
-Clock Hands: <li id="hour"></li>, <li id="minute"></li>, <li id="second"></li> - Elements representing the hour, minute, and second hands of the clock.
+*Clock Container: <ul id="clock"> - The main container for the clock, including numbers and clock hands.
 
-CSS Styles (watch.css)
-Global Reset
+*Clock Numbers: <li class="numbers"><span>1</span></li> - Individual elements for each clock number (1 to 12).
+
+*Clock Hands: <li id="hour"></li>, <li id="minute"></li>, <li id="second"></li> - Elements representing the hour, minute, and second hands of the clock.
+
+##CSS Styles (watch.css)
+
+*Global Reset
 *: Sets margin and padding to zero for all elements.
-Wrapper Styles
+
+*Wrapper Styles
 .wrapper: Defines the overall layout of the clock, setting the background color, font-family, and size.
-Clock Text Styles
+
+*Clock Text Styles
 #clocktext: Styles the heading "CLOCK" with background color, text color, font size, boldness, and shadow effects.
-Clock Container Styles
+
+*Clock Container Styles
 #clock: Defines the appearance of the clock container, including its size, background color, border, and box shadow.
-Clock Inner Circle
+
+*Clock Inner Circle
 #clock:before: Adds a circular inner shadow to the clock container.
-Clock Center
+
+*Clock Center
 #clock:after: Creates a central circle within the clock.
-Clock Numbers
+
+*Clock Numbers
 .numbers: Styles the container for clock numbers, specifying position, size, and text alignment.
 .numbers span: Styles each individual clock number, including color, font size, and text shadow.
-Clock Hands Animation
+
+*Clock Hands Animation
 #second, #minute, #hour: Configures the animation properties for the second, minute, and hour hands.
-Clock Hands Styling
+
+*Clock Hands Styling
 #second:after, #minute:after, #hour:after: Styles the appearance of the clock hands, including size, shape, color, and shadow.
-Clock Hands Animation Keyframes
+
+*Clock Hands Animation Keyframes
 @keyframes sec: Defines the rotation animation for the second hand.
 
 <h1>Getting Started</h1>
+
 1) Clone the repository:
 
 git clone https://github.com/your-username/clock-website.git
