@@ -5,54 +5,23 @@ Welcome to the Clock Website! This simple web page displays an animated clock wi
 
 ##Preview
 
-##Features
+<h1>Features</h1>
 1) Animated clock with rotating hands.<br>
 2) Stylish design with a purple background.
 
-##Getting Started
+<h1>Getting Started</h1>
 1) Clone the repository:
-<!--
-bash
 
 git clone https://github.com/your-username/clock-website.git
--->
 
 2) Open the index.html file in your preferred web browser.
 
-##Usage
+<h1>Usage</h1>
 Feel free to use this code as a template for your own projects. Customize the colors, styles, or add additional features to make it unique.
 
-html
-Copy code
-<!-- Include the necessary HTML structure -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="watch.css">
-  <link rel="icon" href="icons8-clock-16.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-</head>
-<body>
-  <div class="wrapper">
-    <ul id="clocktext">CLOCK</ul>
-    <ul id="clock">
-      <li class="numbers"><span>1</span></li>
-      <li class="numbers"><span>2</span></li>
-      <!-- ... (continue for numbers 3 to 12) ... -->
-      <li id="hour"></li>
-      <li id="minute"></li>
-      <li id="second"></li>
-    </ul>
-  </div>
-</body>
-</html>
-
-##Styling
+<h1>Styling</h1>
 The clock styling is defined in the watch.css file. You can modify the styles to match your preferences or integrate it into your existing project. Feel free to explore and experiment with the code to create a unique clock design.
 
-Credits
+<h1>credits</h1>
 Fonts: Josefin Sans
 Icon: Icons8 Clock
