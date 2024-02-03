@@ -43,11 +43,11 @@ Copy code
 </html>
 ```
 # HTML Structure (index.html)
-* Wrapper Container: <div class="wrapper"> - A container that encompasses the entire clock.
-* Clock Text: <ul id="clocktext"> - The heading text "CLOCK" displayed above the clock.
-* Clock Container: <ul id="clock"> - The main container for the clock, including numbers and clock hands.
-* Clock Numbers: <li class="numbers"><span>1</span></li> - Individual elements for each clock number (1 to 12).
-* Clock Hands: <li id="hour"></li>, <li id="minute"></li>, <li id="second"></li> - Elements representing the hour, minute, and second hands of the clock.
+* Wrapper Container: ```<div class="wrapper"> ```- A container that encompasses the entire clock.
+* Clock Text:```<ul id="clocktext">``` - The heading text "CLOCK" displayed above the clock.
+* Clock Container:``` <ul id="clock"> ```- The main container for the clock, including numbers and clock hands.
+* Clock Numbers: ```<li class="numbers"><span>1</span></li>``` - Individual elements for each clock number (1 to 12).
+* Clock Hands: ```<li id="hour"></li>, <li id="minute"></li>, <li id="second"></li>``` - Elements representing the hour, minute, and second hands of the clock.
   
 # CSS Styles (watch.css)
 The clock styling is defined in the watch.css file. 
